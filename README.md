@@ -12,4 +12,6 @@ Welcome to the "Math the Fun Way" website! This project is a dynamic web platfor
 - CSS3
 
 ## Screenshots
-[![math-website-screenshot.png](https://i.postimg.cc/ncSRjrZB/math-website-screenshot.png)](https://postimg.cc/HV54Fprk)
+<img src="https://i.postimg.cc/ncSRjrZB/math-website-screenshot.png" alt="Math Website Screenshot" width="800"/>
+
+
