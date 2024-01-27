@@ -10,3 +10,6 @@ Welcome to the "Math the Fun Way" website! This project is a dynamic web platfor
 ## Technologies Used
 - HTML5
 - CSS3
+
+## Screenshots
+[![math-website-screenshot.png](https://i.postimg.cc/ncSRjrZB/math-website-screenshot.png)](https://postimg.cc/HV54Fprk)
