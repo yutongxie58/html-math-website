@@ -1,0 +1,217 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 90%;
+    /* border: 1px solid grey; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#brand {
+    flex: 50%;
+    min-width: 400px;
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
+}
+
+#searchBox {
+    flex: 50%;
+    background: linear-gradient(#e4f2b9, #b7e953);
+    background: -webkit-linear-gradient(#e4f2b9, #b7e953);
+    background: -o-linear-gradient(#e4f2b9, #b7e953);
+    background: -moz-linear-gradient(#e4f2b9, #b7e953);
+    max-width: 600px;
+    min-width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    background: white url(./images/search.png) right center no-repeat;
+    background-size: 25px 25px;
+    border: 1px solid #c8d03e;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #a751d6;
+    font-size: 15px;
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu {
+    background: linear-gradient(#f8f594, #d5d533);
+    background: -webkit-linear-gradient(#f8f594, #d5d533);
+    background: -o-linear-gradient(#f8f594, #d5d533);
+    background: -moz-linear-gradient(#f8f594, #d5d533);
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu a {
+    padding: 0 45px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+#menu a:last-child {
+    border-right: none;
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #5d12e7;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu a:hover, #menu a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c34fdb;
+}
+
+/* small screens: vertical menu */
+@media screen and (max-width: 700px){
+    #menu {
+        flex-direction: column;
+        align-content: center;
+    }
+    #menu a {
+        border-right: none;
+    }
+}
+
+#introduction {
+    background: linear-gradient(#e5f2bb, #b7e952);
+    background: -webkit-linear-gradient(#e5f2bb, #b7e952);
+    background: -o-linear-gradient(#e5f2bb, #b7e952);
+    background: -moz-linear-gradient(#e5f2bb, #b7e952);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 25px;
+    color: #789450;
+    text-align: justify;
+}
+
+/* sidebars */
+.sidebars {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarWrapper {
+    padding: 5px;
+    flex: 50%;
+    min-width: 400px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.sidebar h3 {
+    color: #b314db;
+    font-size: 30px;
+}
+
+.sidebar ul {
+    padding-top: 8px;
+    list-style-type: none;
+}
+
+#leftsidebar ul li {
+    padding: 4px 0 4px 35px;
+    list-style: none;
+    background: url(./images/arrow.png) no-repeat left center;
+    background-size: 20px 20px;
+}
+
+#rightsidebar ul li {
+    padding: 15px 0 15px 35px;
+    background: url(./images/tick.png) no-repeat left center;
+    background-size: 22px 22px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: none;
+    color: #b314db;
+    font-size: 23px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    background: -webkit-linear-gradient(#f6f390, #d5d533);
+    background: -o-linear-gradient(#f6f390, #d5d533);
+    background: -moz-linear-gradient(#f6f390, #d5d533);
+    padding: 10px 30px;
+    margin-top: auto;
+}
