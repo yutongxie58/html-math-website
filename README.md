@@ -1,7 +1,7 @@
 # Math the Fun Way Website
 
 ## Overview
-Welcome to the "Math the Fun Way" website! This project is a dynamic web platform aimed at making math learning interactive and enjoyable.
+This is a home page for "Math the Fun Way" website. This project is a dynamic web platform aimed at making math learning interactive and enjoyable.
 
 ## Features
 - User-friendly navigation with a vibrant design.
