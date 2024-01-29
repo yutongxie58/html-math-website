@@ -14,4 +14,5 @@ This is a home page for "Math the Fun Way" website. This project is a dynamic we
 ## Screenshots
 <img src="https://i.postimg.cc/ncSRjrZB/math-website-screenshot.png" alt="Math Website Screenshot" width="800"/>
 
-
+## Check It Out
+Simply open the [webpage]() in your browser to check the website!
